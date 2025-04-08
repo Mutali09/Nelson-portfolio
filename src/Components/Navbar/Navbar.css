@@ -9,10 +9,24 @@
     top: 0;
     z-index: 10;
   }
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .logo-img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+  }
   
-  .logo {
+  .logo-text {
     font-size: 1.5rem;
     font-weight: bold;
+    color: white;
+    margin: 0;
   }
   
   .nav-links {
